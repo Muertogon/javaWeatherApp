@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="app_title">Free weather info app</string>
+
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_checkbox">Remember me</string>
+    <string name="login_login_btn">Login</string>
+    <string name="login_register_btn">Register</string>
+    <string name="login_invalid_username">Wrong Username Or/And Password</string>
+    <string name="weather_hint">Enter your location…</string>
+    <!--Registation-->
+    <string name="app_registration">Registration</string>
+    <string name="register_username">Username</string>
+    <string name="register_email">Email</string>
+    <string name="register_password">Password</string>
+    <string name="register_btn">Register</string>
+    <string name="register_invalid_validation">Validation is wrong</string>
+    <!--API-->
+    <string name="search_loading_data">Please wait for weather data of that region to be displayed</string>
+    <string name="search_error_reading_data">Couldnt read data from API. For more information: </string>
+    <string name="search_no_results">No search results found for query: </string>
+    <!--New entry activity-->
+    <string name="ne_city">City</string>
+    <string name="ne_nomber">Wind speed</string>
+    <!--Checkbox-->
+    <string name="chk_tmp">Negative temperature</string>
+    <string name="btn_idk">OK</string>
+    <!--Radio buttons-->
+    <string name="radio_outside">Outside</string>
+    <string name="radio_inside">Inside</string>
+    <string name="btn_yes">Yes</string>
+    <!--Spinner-->
+    <string name="weather_prompt">Weather Properties</string>
+
+    <string-array name="weather_props">
+        <item>Temperature</item>
+        <item>Temperature Feels like</item>
+        <item>Wind speed</item>
+        <item>Pressure</item>
+        <item>Humidity</item>
+    </string-array>
+
+</resources>

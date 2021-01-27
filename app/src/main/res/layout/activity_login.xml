@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="@string/app_title"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/usernametext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/login_username"
+        android:textColorHint="@color/colorWhite"
+        android:backgroundTint="@android:color/white"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="50dp" />
+
+    <EditText
+        android:id="@+id/passwordtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/login_password"
+        android:textColorHint="@color/colorWhite"
+        android:backgroundTint="@android:color/white"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="50dp"/>
+
+    <CheckBox
+        android:id="@+id/rememberMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_checkbox"
+        android:textColor="@color/colorWhite"
+        android:buttonTint="@color/colorWhite"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/loginbatonas"
+            android:layout_width="560dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorLightblue"
+            android:text="@string/login_login_btn"
+            android:textColor="@color/colorWhite" />
+
+        <Button
+            android:id="@+id/regbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorWhite"
+            android:textColor="@color/colorBlack"
+            android:text="@string/login_register_btn" />
+
+    </LinearLayout>
+
+</LinearLayout>

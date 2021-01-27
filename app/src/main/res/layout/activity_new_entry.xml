@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:padding="10dp">
+<!--CheckBox-->
+    <CheckBox
+        android:id="@+id/chkIos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:buttonTint="@color/colorWhite"
+        android:text="@string/chk_tmp" />
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorLightblue"
+        android:text="@string/btn_idk" />
+<!--RadioButtons-->
+    <RadioGroup
+        android:id="@+id/radioSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_outside"
+            android:textColor="@color/colorWhite"
+            android:buttonTint="@color/colorWhite"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:buttonTint="@color/colorWhite"
+            android:text="@string/radio_inside" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorLightblue"
+        android:text="@string/btn_yes" />
+
+<!--Android Spinner-->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:entries="@array/weather_props"
+        android:background="@color/colorSpinner"
+        android:prompt="@string/weather_prompt"/>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorSpinner"
+        android:layout_height="wrap_content"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorLightblue"
+        android:text="Show Me"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ne_city"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ne_nomber"
+        android:inputType="numberSigned"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite" />
+
+</LinearLayout>

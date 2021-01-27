@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/app_registration"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColorHint="@color/colorWhite"
+        android:backgroundTint="@android:color/white"
+        android:textColor="@color/colorWhite"
+        android:textSize="50dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorWhite"
+        android:backgroundTint="@android:color/white"
+        android:textColor="@color/colorWhite"
+        android:hint="@string/register_username" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <EditText
+
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorWhite"
+        android:backgroundTint="@android:color/white"
+        android:textColor="@color/colorWhite"
+        android:hint="@string/register_password"
+        android:inputType="textPassword" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorWhite"
+        android:backgroundTint="@android:color/white"
+        android:textColor="@color/colorWhite"
+        android:hint="@string/register_email" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="391dp"
+        android:layout_height="62dp"
+        android:layout_weight="0"
+        android:background="@color/colorLightblue"
+        android:text="@string/register_btn"
+        android:textColor="@color/colorWhite" />
+</LinearLayout>
